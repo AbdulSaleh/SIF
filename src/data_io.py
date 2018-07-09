@@ -9,8 +9,7 @@ def getWordmap(textfile):
     words={}
     We = []
     f = open(textfile,'r')
-    lines = f.readlines()
-    for (n,i) in enumerate(lines):
+    for (n,i) in enumerate(f):
         i=i.split()
         j = 1
         v = []
